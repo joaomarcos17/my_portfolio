@@ -1,0 +1,27 @@
+html,body {
+
+    padding: 2rem;
+    font-family: sans-serif;
+    line-height: 1.4;
+
+}
+img{
+    width: 100%;
+}
+
+/* media query for larges screens */
+
+@media screen and (min-width: 50em) {
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, auto );
+        grid-gap: 3rem;
+    }
+    html,body{
+        padding: 4rem;
+    }
+    
+}
+
+
