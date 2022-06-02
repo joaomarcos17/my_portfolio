@@ -3,8 +3,20 @@ html,body {
     padding: 2rem;
     font-family: sans-serif;
     line-height: 1.4;
+   background-color: wheat;
 
 }
+button{
+   
+    background-color: #17a2b8;
+    color: #ffff;
+    padding: .75rem 1.5rem;
+    border: none;
+    border-radius: .2rem;
+    box-shadow: 0 0 transparent;
+
+  }
+
 img{
     width: 100%;
 }
